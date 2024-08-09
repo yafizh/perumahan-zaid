@@ -1,19 +1,17 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Kepemilikan Rumah
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/admin/pelanggan" class="btn btn-secondary w-100 mb-3">Kembali</a>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Kepemilikan Rumah</h4>
+            <div>
+                <a href="/admin/pelanggan" class="btn btn-secondary">Kembali</a>
                 <a href="/admin/pendaftaran-pemesanan/create?id_pelanggan={{ $pelanggan->id }}"
-                    class="btn btn-warning w-100 mb-3">Pemesanan</a>
+                    class="btn btn-warning">Pemesanan</a>
                 <a href="/admin/pembayaran-uang-muka/create?id_pelanggan={{ $pelanggan->id }}"
-                    class="btn btn-primary w-100 mb-3">Pembelian</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+                    class="btn btn-primary">Pembelian</a>
+            </div>
+        </div>
         <hr>
         <style>
             .detail-table table {

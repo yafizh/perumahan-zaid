@@ -1,12 +1,8 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Laporan Perumahan
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-4  ">
+        <h4>Laporan Perumahan</h4>
         <hr>
         <main class="mb-3 row">
             <div class="col-12 col-md-3">
@@ -55,9 +51,9 @@
                         </select>
                     </div>
                     <hr>
-                    <div class="mb-3 d-flex justify-content-between">
-                        <a href="/admin/laporan/rumah" class="btn btn-secondary">Reset Filter</a>
-                        <div>
+                    <div class="mb-3 d-flex justify-content-between align-items-strech gap-1">
+                        <a href="/admin/laporan/rumah" class="btn btn-secondary d-flex align-items-center">Reset Filter</a>
+                        <div class="d-flex flex-column gap-1 w-100">
                             <button type="submit" class="btn btn-info">Filter</button>
                             <a href="{{ $href }}" class="btn btn-primary" target="_blank">Cetak</a>
                         </div>

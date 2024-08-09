@@ -1,19 +1,16 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Detail Direktur
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/admin/direktur" class="btn btn-secondary w-100 mb-3">Kembali</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Detail Direktur</h4>
+            <a href="/admin/direktur" class="btn btn-secondary">Kembali</a>
+        </div>
         <hr>
         <main class="mb-3 row justify-content-center gap-5">
             <div class="col-12 col-md-4 col-lg-3 mb-3">
-                <img src="{{ asset('storage/' . $direktur->foto) }}" style="width: 100%; object-fit: cover; aspect-ratio: 3 / 4;">
+                <img src="{{ asset('storage/' . $direktur->foto) }}"
+                    style="width: 100%; object-fit: cover; aspect-ratio: 3 / 4;">
             </div>
             <style>
                 table {

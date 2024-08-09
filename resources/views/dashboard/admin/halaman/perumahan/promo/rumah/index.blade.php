@@ -1,16 +1,14 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Data Promo Rumah
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/admin/promo" class="btn btn-secondary w-100 mb-3">Kembali</a>
-                <a href="/admin/promo/{{ $promo->id }}/rumah/create" class="btn btn-primary w-100 mb-3">Tambah</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Data Promo Rumah</h4>
+            <div>
+                <a href="/admin/promo" class="btn btn-secondary">Kembali</a>
+                <a href="/admin/promo/{{ $promo->id }}/rumah/create" class="btn btn-primary">Tambah</a>
+            </div>
+        </div>
         <hr>
         <main class="mb-3 row">
             <div class="col-12 col-md-4">

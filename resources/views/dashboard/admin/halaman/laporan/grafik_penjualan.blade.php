@@ -1,12 +1,8 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Laporan Grafik Penjualan
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-4">
+        <h4>Laporan Grafik Penjualan</h4>
         <hr>
         <main class="mb-3 row">
             <div class="col-12 col-md-3">

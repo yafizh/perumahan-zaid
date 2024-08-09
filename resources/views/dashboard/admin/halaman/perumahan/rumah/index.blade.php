@@ -1,16 +1,11 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Data Perumahan
-            </x-slot:title-page>
-            <x-slot:buttons>
-                {{-- <button class="btn btn-info w-100 mb-3">Cetak</button> --}}
-                <a href="/admin/rumah/create" class="btn btn-primary w-100 mb-3">Tambah</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Data Perumahan</h4>
+            <a href="/admin/rumah/create" class="btn btn-primary">Tambah</a>
+        </div>
         <hr>
         <main class="mb-3">
             @isset($semua_blok_perumahan)

@@ -1,12 +1,8 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Data Pendaftaran Pemesanan Online
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-4">
+        <h4>Data Pendaftaran Pemesanan Online</h4>
         <hr>
         <main class="mb-3">
             <div class="table-responsive">
