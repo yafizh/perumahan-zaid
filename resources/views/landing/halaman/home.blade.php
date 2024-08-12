@@ -41,7 +41,7 @@
             <h3 class="text-decoration-underline">TENTANG KAMI</h3>
         </div>
         <div class="col-12 col-md-4 mb-3">
-            <img src="/hero.jpg" width="100%">
+            <img src="/assets/images/rumah.jpg" width="100%">
         </div>
         <div class="col-12 col-md-8 mb-3">
             Perumahan Mustika”ini diinisiasi oleh PT. Citra Putri Mustika untuk mengembangkan lokasi tanah kosong
@@ -73,7 +73,7 @@
         </div>
         <div class="col-12 col-md-5 mb-3">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1991.3540973092265!2d114.84055023205607!3d-3.4210878495873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1680931182848!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.7030351891503!2d114.86025947351855!3d-3.422329241688734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de6804e8177c3bd%3A0x475acd6fbaaf5416!2sJl.%20Permata%20No.156%2C%20Sungai%20Paring%2C%20Kec.%20Martapura%2C%20Kabupaten%20Banjar%2C%20Kalimantan%20Selatan%2070714!5e0!3m2!1sen!2sid!4v1723470064524!5m2!1sen!2sid"
                 style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -102,7 +102,7 @@
             </p>
         </div>
         <div class="col-12 col-md-5 mb-3">
-            <img src="/assets/images/rumah.png" style="width: 100%; object-fit: cover;">
+            <img src="/assets/images/rumah2.jpg" style="width: 100%; object-fit: cover;">
         </div>
     </div>
 
