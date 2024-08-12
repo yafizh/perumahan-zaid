@@ -1,15 +1,11 @@
 @extends('dashboard.pelanggan.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Riwayat Pembangunan Rumah
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <button onclick="history.back()" class="btn btn-secondary w-100 mb-3">Kembali</button>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Riwayat Pembangunan Rumah</h4>
+            <button onclick="history.back()" class="btn btn-secondary w-100 mb-3">Kembali</button>
+        </div>
         <hr>
         <main class="mb-3 row">
             <div class="col-12 col-md-6 mb-3">

@@ -1,12 +1,8 @@
 @extends('dashboard.pelanggan.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Kepemilikan Rumah
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-4">
+        <h4>Kepemilikan Rumah</h4>
         <hr>
         <style>
             .detail-table table {

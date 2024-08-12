@@ -1,15 +1,11 @@
 @extends('dashboard.pelanggan.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Pendaftaran Pemesanan
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/pelanggan/pemesanan-rumah/create" class="btn btn-primary w-100 mb-3">Lakukan Pemesanan</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Pendaftaran Pemesanan</h4>
+            <a href="/pelanggan/pemesanan-rumah/create" class="btn btn-primary">Lakukan Pemesanan</a>
+        </div>
         <hr>
         <main class="mb-3">
             <div class="table-responsive">

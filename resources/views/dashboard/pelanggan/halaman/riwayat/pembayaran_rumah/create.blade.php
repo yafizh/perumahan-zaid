@@ -1,17 +1,13 @@
 @extends('dashboard.pelanggan.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Pembayaran Rumah
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/pelanggan/{{ $rumahPelanggan->id }}/riwayat-pembayaran-rumah" class="btn btn-secondary w-100 mb-3">
-                    Kembali
-                </a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Pembayaran Rumah</h4>
+            <a href="/pelanggan/{{ $rumahPelanggan->id }}/riwayat-pembayaran-rumah" class="btn btn-secondary">
+                Kembali
+            </a>
+        </div>
         <hr>
         <main class="mb-3 row justify-content-center">
             <div class="col-12 col-md-6">

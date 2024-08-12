@@ -1,15 +1,11 @@
 @extends('dashboard.pelanggan.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Data Laporan Keluhan
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/pelanggan/keluhan-pelanggan/create" class="btn btn-primary w-100 mb-3">Tambah</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Data Laporan Keluhan</h4>
+            <a href="/pelanggan/keluhan-pelanggan/create" class="btn btn-primary">Tambah</a>
+        </div>
         <hr>
         <main class="mb-3">
             <div class="table-responsive">
