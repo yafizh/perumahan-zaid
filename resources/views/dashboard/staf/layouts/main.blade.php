@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/css/table.css">
     <script src="/assets/js/currency.js"></script>
+    <link rel="stylesheet" href="/styles/sidebar.css">
 </head>
 
 <body>
-    <!-- Navbar-->
-    @include('dashboard.staf.partials.navbar')
-
-    <main class="container">
+    <main id="main" class="d-flex flex-nowrap">
+        @include('dashboard.staf.partials.sidebar')
         @yield('content')
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

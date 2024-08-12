@@ -1,15 +1,11 @@
 @extends('dashboard.staf.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Edit Pelanggan
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/staf/pelanggan" class="btn btn-secondary w-100 mb-3">Kembali</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Edit Pelanggan</h4>
+            <a href="/staf/pelanggan" class="btn btn-secondary">Kembali</a>
+        </div>
         <hr>
         <main class="mb-3">
             <form action="/staf/pelanggan/{{ $pelanggan->id }}" method="POST" enctype="multipart/form-data">

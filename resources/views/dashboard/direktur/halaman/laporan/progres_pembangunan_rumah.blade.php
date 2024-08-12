@@ -1,12 +1,8 @@
 @extends('dashboard.direktur.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Laporan Progres Pembangunan Rumah
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-4">
+        <h4>Laporan Progres Pembangunan Rumah</h4>
         <hr>
         <main class="mb-3 row">
             <div class="col-12 col-md-3">
@@ -36,9 +32,9 @@
                             value="{{ request()->get('sampai_tanggal') }}">
                     </div>
                     <hr>
-                    <div class="mb-3 d-flex justify-content-between">
-                        <a href="/direktur/laporan/progres-pembangunan-rumah" class="btn btn-secondary">Reset Filter</a>
-                        <div>
+                    <div class="mb-3 d-flex justify-content-between align-items-strech gap-1">
+                        <a href="/direktur/laporan/progres-pembangunan-rumah" class="btn btn-secondary d-flex align-items-center">Reset Filter</a>
+                        <div class="d-flex flex-column gap-1 w-100">
                             <button type="submit" class="btn btn-info">Filter</button>
                             <a href="{{ $href }}" class="btn btn-primary" target="_blank">Cetak</a>
                         </div>

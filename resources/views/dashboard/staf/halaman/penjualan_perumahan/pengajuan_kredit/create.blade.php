@@ -1,15 +1,11 @@
 @extends('dashboard.staf.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Tambah Pengajuan Kredit
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <button onclick="history.back()" class="btn btn-secondary w-100 mb-3">Kembali</button>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Tambah Pengajuan Kredit</h4>
+            <button onclick="history.back()" class="btn btn-secondary">Kembali</button>
+        </div>
         <hr>
         <form action="/staf/pengajuan-kredit" method="POST">
             @csrf
