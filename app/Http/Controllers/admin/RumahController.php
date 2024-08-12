@@ -66,7 +66,7 @@ class RumahController extends Controller
             $item->tanggal_terformat = $tanggal->day . ' ' . $tanggal->locale('ID')->getTranslatedMonthName() . ' ' . $tanggal->year;
             return $item;
         });
-        
+
         return view('dashboard.admin.halaman.perumahan.rumah.show', [
             'rumah' => $rumah,
             'riwayat_pembangunan_rumah' => $riwayat_pembangunan_rumah
@@ -88,7 +88,7 @@ class RumahController extends Controller
             'id_blok_perumahan' => 'required',
             'nomor_rumah' => [
                 'required',
-                Rule::unique('rumah')->ignore($rumah->id)
+                Rule::unique('rumah')->ignore($rumah->id)->ignore($rumah->id, 'id')
             ],
             'harga' => [
                 'required',

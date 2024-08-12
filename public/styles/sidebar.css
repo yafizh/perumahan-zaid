@@ -7,7 +7,7 @@ html {
   height: -webkit-fill-available;
 }
 
-main {
+#main {
   height: 100vh;
   height: -webkit-fill-available;
   max-height: 100vh;

@@ -1,15 +1,11 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Edit Penjualan
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <button onclick="history.back()" class="btn btn-secondary w-100 mb-3">Kembali</button>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Edit Penjualan</h4>
+            <button onclick="history.back()" class="btn btn-secondary">Kembali</button>
+        </div>
         <hr>
         <form action="/admin/pembayaran-uang-muka/{{ $pembayaran_uang_muka->id }}" method="POST"
             enctype="multipart/form-data">

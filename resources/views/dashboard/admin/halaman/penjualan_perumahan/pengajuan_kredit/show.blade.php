@@ -1,15 +1,11 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Detail Pengajuan Kredit
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/admin/pengajuan-kredit" class="btn btn-secondary w-100 mb-3">Kembali</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Detail Pengajuan Kredit</h4>
+            <a href="/admin/pengajuan-kredit" class="btn btn-secondary">Kembali</a>
+        </div>
         <hr>
         <main class="mb-3 row justify-content-center">
             <div class="col-12 col-md-6">
@@ -23,7 +19,8 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Nomor Telepon</label>
-                    <input type="text" class="form-control" disabled value="{{ $pengajuanKredit->pelanggan->nomor_telepon }}">
+                    <input type="text" class="form-control" disabled
+                        value="{{ $pengajuanKredit->pelanggan->nomor_telepon }}">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Email</label>
@@ -33,16 +30,17 @@
             <div class="col-12 col-md-6">
                 <div class="mb-3">
                     <label class="form-label">Blok Perumahan</label>
-                    <input type="text" class="form-control" disabled value="{{ $pengajuanKredit->rumah->blokPerumahan->nama }}">
+                    <input type="text" class="form-control" disabled
+                        value="{{ $pengajuanKredit->rumah->blokPerumahan->nama }}">
                 </div>
                 <div class="mb-3">
                     <label for="id_rumah" class="form-label">Nomor Rumah</label>
-                    <input type="text" class="form-control" disabled value="Rumah Nomor {{ $pengajuanKredit->rumah->nomor_rumah }}">
+                    <input type="text" class="form-control" disabled
+                        value="Rumah Nomor {{ $pengajuanKredit->rumah->nomor_rumah }}">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Tanggal</label>
-                    <input type="text" class="form-control" disabled
-                        value="{{ $pengajuanKredit->tanggalPengajuan() }}">
+                    <input type="text" class="form-control" disabled value="{{ $pengajuanKredit->tanggalPengajuan() }}">
                 </div>
                 <div class="mb-3">
                     <label class="form-label d-block">Status</label>

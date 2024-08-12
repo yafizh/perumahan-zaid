@@ -1,15 +1,11 @@
 @extends('dashboard.admin.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Detail Pendaftaran Pemesanan Online
-            </x-slot:title-page>
-            <x-slot:buttons>
-                <a href="/admin/pengajuan-pemesanan" class="btn btn-secondary w-100 mb-3">Kembali</a>
-            </x-slot:buttons>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Detail Pendaftaran Pemesanan Online</h4>
+            <a href="/admin/pengajuan-pemesanan" class="btn btn-secondary">Kembali</a>
+        </div>
         <hr>
         <main class="mb-3 row justify-content-center">
             <div class="col-12 col-md-6">
@@ -44,11 +40,11 @@
                     <input type="text" class="form-control" disabled
                         value="{{ $pengajuanPemesanan->tanggalPemesanan() }}">
                 </div>
-                    <div class="mb-3">
-                        <label class="form-label">Tanggal Pembelian</label>
-                        <input type="text" class="form-control" disabled
-                            value="{{ $pengajuanPemesanan->tanggalPembelian() }}">
-                    </div>
+                <div class="mb-3">
+                    <label class="form-label">Tanggal Pembelian</label>
+                    <input type="text" class="form-control" disabled
+                        value="{{ $pengajuanPemesanan->tanggalPembelian() }}">
+                </div>
                 <div class="mb-3">
                     <label class="form-label d-block">Bukti Pembayaran</label>
                     <a href="{{ asset('storage/' . $pengajuanPemesanan->foto) }}" target="_blank">Lihat</a>
