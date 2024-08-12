@@ -17,8 +17,10 @@
 </head>
 
 <body>
-    <main id="main" class="d-flex flex-nowrap">
-        @include('dashboard.staf.partials.sidebar')
+    <!-- Navbar-->
+    @include('dashboard.pelanggan.partials.navbar')
+
+    <main class="container">
         @yield('content')
     </main>
     <script src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.13.4/r-2.4.1/datatables.min.js"></script>
