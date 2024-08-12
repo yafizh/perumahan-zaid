@@ -10,15 +10,15 @@
     </style>
     <div class="row w-100 p-5 mx-0 text-justify">
         <div class="col-12 mb-3" style="text-align: justify;">
-            <h4>PT. KARYA PUTRA BERSAUDARA</h4>
+            <h4>PT. CITRA PUTRI MUSTIKA</h4>
             <div class="ps-4 pb-4 float-end" style="width: 28rem;">
                 <img src="https://lh3.googleusercontent.com/proxy/hqXy7NfU0-rPVejSIjM_IPwPPqz0hxNyS63tl6sP7raABlpJ4NizYIG7msrMwqCLa8BsUm-SF9pGNgdZvoAIEE2g4jWlwvn3ppBwoWzVnCrUxcvQDdCG42bIV9I4PaNC0d2Du7R05rPtSBl4pY-jm6ibcp-2fwmKJGVbBw=s680-w680-h510"
                     class="w-100">
 
             </div>
             <p>
-                PT. Karya Putra Bersaudara merupakan perusahaan di Kalimantan Selatan yang bergerak di bidang kontraktor dan
-                developer. PT. Karya Putra Bersaudara memulai unit bisnisnya dalam bidang contractor developer dengan
+                PT. Citra Putri Mustika merupakan perusahaan di Kalimantan Selatan yang bergerak di bidang kontraktor dan
+                developer. PT. Citra Putri Mustika memulai unit bisnisnya dalam bidang contractor developer dengan
                 membangun komplek perumahan pertama dengan nama 'Bauntung Permai' yang terletak di Jl. Bauntung RT.05 RW.
                 III Desa Sungai Sipai Kecamatan Martapura Kabupaten Banjar Provinsi Kalimantan Selatan dengan total lahan
                 seluas 1,04 Ha, dengan bangunan sebanyak 48 unit rumah yang terdiri dari tipe 45 sebanyak 13 unit dan tipe
@@ -33,9 +33,9 @@
             </p>
 
             <p>
-                Saat ini, PT. Karya Putra Bersaudara tengah memulai proyek ke empat Banjar Mas di Jl. Damai Indah RT. 015
+                Saat ini, PT. Citra Putri Mustika tengah memulai proyek ke empat Banjar Mas di Jl. Damai Indah RT. 015
                 Desa Sungai Sipai Kecamatan Martapura Kabupaten Banjar dengan luas 3.339 m2 dengan bangunan sebanyak 18 unit
-                rumah tipe 36. Saat ini PT. Karya Putra Bersaudara juga tengah membangun proyek baru 'Al Kautsar Residence'
+                rumah tipe 36. Saat ini PT. Citra Putri Mustika juga tengah membangun proyek baru 'Al Kautsar Residence'
                 yang terletak di Jl Veteran RT. 037 RW. 013 Kelurahan Keraton Kecamatan Martapura Kota Kabupaten Banjar
                 yang saat ini tengah dalam proses dengan luas 34.775,59 m2 dengan bangunan sebanyak 216 unit rumah tipe 36.
             </p>
@@ -54,7 +54,7 @@
         <div class="col-12 col-md-6 mb-3">
             <h4 class="text-center">LOKASI KANTOR</h4>
             <p>
-                Kantor pemasan PT. Karya Putra Bersaudara berlokasi di Jalan Veteran Rt. 037 Rw. 013 Kelurahan Keraton
+                Kantor pemasan PT. Citra Putri Mustika berlokasi di Jalan Veteran Rt. 037 Rw. 013 Kelurahan Keraton
                 Kecamatan Martapura Kota Kabupaten Banjar.
             </p>
             <iframe
@@ -65,7 +65,7 @@
         <div class="col-12 col-md-6 mb-3">
             <h4 class="text-center">KONTAK</h4>
             <p class="mb-5">
-                PT. Karya Putra Bersaudara mempunya beberapa layanan yang dapat dihubungi untuk tujuan peyalanan atau janji
+                PT. Citra Putri Mustika mempunya beberapa layanan yang dapat dihubungi untuk tujuan peyalanan atau janji
                 temu yang dapat dihubungi.
             </p>
             <div class="row text-center">

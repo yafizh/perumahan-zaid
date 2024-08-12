@@ -38,13 +38,6 @@
             font-family: 'Rubik';
         }
 
-        #lokasi-perumahan ul,
-        .navbar ul {
-            list-style: none;
-            padding-left: 0;
-            margin-left: 0;
-        }
-
         #lokasi-perumahan ul li,
         .navbar ul li {
             margin: .4rem 0;

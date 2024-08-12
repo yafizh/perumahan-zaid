@@ -3,7 +3,7 @@
 @section('content')
     <style>
         .hero {
-            background-image: url('/assets/images/logo2.png');
+            background-image: url('/assets/images/hero.jpg');
             background-position-y: -12rem;
             height: 100vh;
             background-size: cover;
@@ -25,10 +25,10 @@
     <div class="hero row w-100 mb-3 mx-0">
         <div class="col-12 col-md-7 p-5 d-flex align-items-center">
             <div class="title text-white">
-                <h1>Perumahan Al Kautsar Residence</h1>
-                <h4>PT. Karya Putra Bersaudara</h4>
-                <p>Miliki segera rumah dengan kondisi strategis dengan harga menarik hanya di Perumahan Al Kautsar
-                    Residence. Hunian yang nyaman cocok untuk keluarga Anda. Lihat unit rumah yang tersedia disini.</p>
+                <h1>Perumahan Permata Intan</h1>
+                <h4>PT. Citra Putri Mustika</h4>
+                <p>Miliki segera rumah dengan kondisi strategis dengan harga menarik hanya di Perumahan Pemata Intan.
+                    Hunian yang nyaman cocok untuk keluarga Anda. Lihat unit rumah yang tersedia disini.</p>
                 <a href="/unit-perumahan" class="btn btn-primary px-5 py-4 rounded-0">
                     LIHAT UNIT TERSEDIA
                 </a>
@@ -44,11 +44,10 @@
             <img src="/hero.jpg" width="100%">
         </div>
         <div class="col-12 col-md-8 mb-3">
-            PT. Karya Putra Bersaudara merupakan perusahaan di Kalimantan Selatan yang bergerak di bidang kontraktor dan
-            developer. Hingga saat ini telah ada beberapa perumahan yang sudah dibangun dan salahsatunya yang sedang
-            dibangun adalah Perumahan Al Kautsar Residence. Terletak di Jalan Veteran Rt. 037 Rw. 013 Kelurahan Keraton
-            Kecamatan Martapura Kota Kabupaten Banjar yang saat ini tengah dalam proses dengan luas 34.775,59 m2 dengan
-            bangunan sebanyak lebih dari 200 unit rumah type 36.
+            Perumahan Mustika”ini diinisiasi oleh PT. Citra Putri Mustika untuk mengembangkan lokasi tanah kosong
+            yang berlokasi di daerah yang cukup strategis di jl. Permata Kelurahan Tanjung Rema Darat Kecamatan Martapura
+            yang berada di tengah-tengah pemukiman penduduk, serta lingkungan yang nuansa alam nya masih sangat alami, bebas
+            polusi udara dan akses jalan yang dekat dengan kota martapura dan Banjarbaru.
         </div>
     </div>
 
@@ -62,38 +61,14 @@
         </div>
         <div class="col-12 col-md-7 mb-3">
             <p>
-                Perumahan terletak di Jalan Veteran Rt. 037 Rw. 013 Kelurahan Keraton Kecamatan Martapura Kota Kabupaten
-                Banjar. Dan berikut merupakan tempat atau destinasi terdekat yang dapat dikunjungi.
+                Lokasi perumahan ini cukup strategis untuk kelas masyarakat berpenghasilan menengah ke bawah. Lokasi Proper
+                dekat dengan sejumlah fasilitas publik antara lain:
             </p>
-            <h5>Lokasi Terdekat</h5>
             <ul>
-                <li>
-                    <i class="fa-solid fa-hospital"></i>
-                    10 menit ke
-                    <a target="_blank" href="https://goo.gl/maps/ExFjnV3EkNbKRxU19">
-                        RSUD Ratu Zalecha Martapura
-                    </a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-mosque"></i>
-                    5 menit ke
-                    <a target="_blank" href="https://goo.gl/maps/FyUfeN67R9W3qkhY6">
-                        Masjid Jami Al Ihsan
-                    </a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-shop"></i>
-                    Dekat dengan pusat pembelanjaan (<a target="_blank"
-                        href="https://goo.gl/maps/q6GgXAwrgYGp9Fgu7">Minimarket</a> dan <a target="_blank"
-                        href="https://goo.gl/maps/Vx1tYNTWHXUcdnnR8">Pasar Tradisional</a>)
-                </li>
-                <li>
-                    <i class="fa-solid fa-building-shield"></i>
-                    10 menit ke
-                    <a target="_blank" href="https://goo.gl/maps/7gxhVRbZ6DtW6QkT9">
-                        Polsek Martapura Kota
-                    </a>
-                </li>
+                <li>Kubah Abah Guru Sekumpul</li>
+                <li>Pasar Tradisional</li>
+                <li>Bank</li>
+                <li>Rumah Sakit</li>
             </ul>
         </div>
         <div class="col-12 col-md-5 mb-3">
