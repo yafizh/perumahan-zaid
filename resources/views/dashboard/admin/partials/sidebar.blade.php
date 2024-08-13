@@ -439,11 +439,14 @@
             <strong>{{ auth()->user()->admin->nama ?? 'Super Admin' }}</strong>
         </a>
         <ul class="dropdown-menu text-small shadow">
-            {{-- <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider"></li> --}}
-            <li><a class="dropdown-item" href="/logout">Logout</a></li>
+            @if (isset(auth()->user()->admin->nama))
+                <li><a class="dropdown-item" href="/admin/profil">Profil</a></li>
+            @endif
+            <li><a class="dropdown-item" href="/admin/ganti-password">Ganti Password</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="/logout">Keluar</a></li>
         </ul>
     </div>
 </div>

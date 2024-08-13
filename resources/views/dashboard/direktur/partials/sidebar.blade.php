@@ -218,6 +218,11 @@
             <strong>{{ auth()->user()->direktur->nama ?? 'Super Admin' }}</strong>
         </a>
         <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="/staf/profil">Profil</a></li>
+            <li><a class="dropdown-item" href="/staf/ganti-password">Ganti Password</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="/logout">Logout</a></li>
         </ul>
     </div>

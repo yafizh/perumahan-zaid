@@ -1,12 +1,8 @@
 @extends('dashboard.direktur.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Profil
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <h4>Profil</h4>
         <hr>
         <main class="mb-3 row justify-content-center">
             <div class="col-12 col-md-6">

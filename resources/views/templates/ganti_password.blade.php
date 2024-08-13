@@ -1,9 +1,5 @@
-<div class="container pt-5">
-    <x-header-dashboard>
-        <x-slot:title-page>
-            Ganti Password
-        </x-slot:title-page>
-    </x-header-dashboard>
+<div class="container pt-3">
+    <h4>Ganti Password</h4>
     <hr>
     <main class="mb-3 row justify-content-center">
         <div class="col-12 col-md-6">

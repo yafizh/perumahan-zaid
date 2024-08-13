@@ -134,6 +134,11 @@
             <strong>{{ auth()->user()->pelanggan->nama }}</strong>
         </a>
         <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="/pelanggan/profil">Profil</a></li>
+            <li><a class="dropdown-item" href="/pelanggan/ganti-password">Ganti Password</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="/logout">Logout</a></li>
         </ul>
     </div>

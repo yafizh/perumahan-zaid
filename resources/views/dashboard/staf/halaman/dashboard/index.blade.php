@@ -1,12 +1,8 @@
 @extends('dashboard.staf.layouts.main')
 
 @section('content')
-    <div class="container pt-5">
-        <x-header-dashboard>
-            <x-slot:title-page>
-                Dashboard
-            </x-slot:title-page>
-        </x-header-dashboard>
+    <div class="container pt-3">
+        <h4>Dashboard</h4>
         <hr>
         <main class="mb-3 row">
             <div class="col-12">

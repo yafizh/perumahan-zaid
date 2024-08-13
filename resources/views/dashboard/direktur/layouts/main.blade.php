@@ -19,7 +19,9 @@
 <body>
     <main id="main" class="d-flex flex-nowrap">
         @include('dashboard.direktur.partials.sidebar')
-        @yield('content')
+        <div class="w-100 overflow-auto">
+            @yield('content')
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.13.4/r-2.4.1/datatables.min.js"></script>
