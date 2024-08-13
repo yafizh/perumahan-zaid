@@ -19,7 +19,7 @@
     <main class="row justify-content-center mx-0 p-5 px-5 w-100">
         <div class="col-12 col-sm-6 col-md-4 bg-white shadow rounded p-4">
             <div class="text-center">
-                <h5><a href="/" class="text-decoration-none">PT. KARYA PUTRA BERSAUDARA</a></h5>
+                <h5><a href="/" class="text-decoration-none">PT. CITRA PUTRI MUSTIKA</a></h5>
                 <hr>
                 <p>Masukkan Identitas Diri dan Password untuk proses pendaftaran.</p>
             </div>
