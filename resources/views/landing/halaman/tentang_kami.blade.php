@@ -3,7 +3,7 @@
 @section('content')
     <style>
         .navbar {
-            background-color: #204A40 !important;
+            background-color: rgb(6,67,100) !important;
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             transition: background-color 200ms linear;
         }

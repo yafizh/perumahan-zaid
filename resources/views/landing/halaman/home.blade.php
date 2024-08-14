@@ -80,11 +80,11 @@
     </div>
 
     <div class="row w-100 text-center py-5 mx-0">
-        <div class="col-12 col-md-6 p-4" style="background-color: #a5d8cc;">
+        <div class="col-12 col-md-6 p-4" style="background-color: #698ea2;">
             <h4 class="mb-4">Unit Terjual</h4>
             <h3>{{ $unit_terjual }}</h3>
         </div>
-        <div class="col-12 col-md-6 p-4" style="background-color: #4cb299;">
+        <div class="col-12 col-md-6 p-4" style="background-color: #376883;">
             <h4 class="mb-4">Unit Tersedia</h4>
             <h3>{{ $unit_tersedia }}</h3>
         </div>
