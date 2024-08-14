@@ -120,16 +120,16 @@
                 <area nomor="A8" href="" coords="1019,1058,884,1068,899,1263,1038,1260" shape="poly">
                 <area nomor="A9" href="" coords="858,862,881,1062,1016,1058,995,859" shape="poly">
                 <area nomor="A10" href="" coords="999,856,1137,850,1158,1051,1024,1059" shape="poly">
-                <area nomor="A11" href="" coords="1278,843,1298,1048,1161,1055,1143,853" shape="poly">
-                <area nomor="A12" href="" coords="517,1414,526,1574,801,1563,787,1407" shape="poly">
-                <area nomor="A13" href="" coords="617,1096,745,1093,770,1293,643,1300" shape="poly">
-                <area nomor="A14" href="" coords="488,1102,612,1095,636,1297,511,1307" shape="poly">
-                <area nomor="A15" href="" coords="485,1093,358,1099,389,1307,505,1307" shape="poly">
-                <area nomor="A16" href="" coords="324,902,466,896,481,1088,357,1095" shape="poly">
-                <area nomor="A17" href="" coords="594,888,465,894,489,1096,614,1093" shape="poly">
-                <area nomor="A18" href="" coords="727,885,600,887,616,1093,745,1087" shape="poly">
-                <area nomor="A19" href="" coords="589,560,452,568,469,775,611,770" shape="poly">
-                <area nomor="A20" href="" coords="264,580,448,568,469,777,298,785" shape="poly">
+                <area nomor="B11" href="" coords="1278,843,1298,1048,1161,1055,1143,853" shape="poly">
+                <area nomor="B12" href="" coords="517,1414,526,1574,801,1563,787,1407" shape="poly">
+                <area nomor="B13" href="" coords="617,1096,745,1093,770,1293,643,1300" shape="poly">
+                <area nomor="B14" href="" coords="488,1102,612,1095,636,1297,511,1307" shape="poly">
+                <area nomor="B15" href="" coords="485,1093,358,1099,389,1307,505,1307" shape="poly">
+                <area nomor="B16" href="" coords="324,902,466,896,481,1088,357,1095" shape="poly">
+                <area nomor="B17" href="" coords="594,888,465,894,489,1096,614,1093" shape="poly">
+                <area nomor="B18" href="" coords="727,885,600,887,616,1093,745,1087" shape="poly">
+                <area nomor="B19" href="" coords="589,560,452,568,469,775,611,770" shape="poly">
+                <area nomor="B20" href="" coords="264,580,448,568,469,777,298,785" shape="poly">
             </map>
         @endif
     </div>
