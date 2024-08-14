@@ -10,13 +10,13 @@
 
 <body>
     <header class="text-center p-4">
-        <img src="/assets/images/logo1.png" alt="Logo" width="120" style="position: absolute; left: 20px;">
-        <h4>PT KARYA PUTRA BERSAUDARA</h4>
-        Jalan Veteran Rt. 037 Rw. 013 Kelurahan Keraton Kecamatan Martapura Kota Kabupaten Banjar
+        <img src="/assets/images/logo.jpg" alt="Logo" width="120" style="position: absolute; left: 18px;">
+        <h4>PT CITRA PUTRI MUSTIKA</h4>
+        Jl. A.YANI KM. 37.650 NO.17,Desa/Kelurahan. Sungai Paring  Kec. Martapura Kab. Banjar 71213
         <br>
-        Telepon: 0812 5511 1151, Website: https://ptkaryabersaudara.com/, 
+        Telepon: 0821 3558 5026, Website: https://ptcitraputrimustika.com/,
         <br>
-        Email: karyaputrabersaudara@gmail.com
+        Email: ptcitraputrimustika@gmail.com
     </header>
     <div class="d-flex flex-column justify-content-center w-100">
         <div style="width: 100%; border-top: 3px solid black;"></div>

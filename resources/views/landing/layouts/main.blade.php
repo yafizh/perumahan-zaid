@@ -10,7 +10,7 @@
     <link rel="preload" as="image" href="/assets/images/no-image.png">
     <link rel="preload" as="image" href="/assets/images/logo2.png">
     <link rel="preload" as="image" href="/assets/images/rumah.png">
-    <link rel="icon" type="image/x-icon" href="/assets/images/logo1.png">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.jpg">
     <link href="/styles/main.min.css" rel="stylesheet">
 
     <link href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.13.4/r-2.4.1/datatables.min.css" rel="stylesheet" />

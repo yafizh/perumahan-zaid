@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Halaman Verifikasi Pengguna</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/logo1.png">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.jpg">
 
     <link href="/styles/main.min.css" rel="stylesheet">
     <style>
