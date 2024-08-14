@@ -49,17 +49,22 @@ class LoginLogoutController extends Controller
         if (!($data['password'] == $data['konfirmasi_password']))
             throw ValidationException::withMessages(['password' => 'Password Tidak Sama']);
 
-        $data['kode_otp'] = strtoupper(substr(uniqid(), 7, 6));
-        $response = Http::timeout(6)->post($this->zenzivaEnpoint, [
-            'userkey'   => $this->zenzivaUserKey,
-            'passkey'   => $this->zenzivaApiKey,
-            'to'        => $data['nomor_telepon'],
-            'message'   => "PT. Karya Putra Bersaudara \nKode OTP anda adalah " . $data['kode_otp']
-        ]);
-        $data['password'] = bcrypt($data['password']);
-        $id = PendaftaranPelanggan::create($data)->id;
 
-        return redirect("/verifikasi-pendaftaran-pelanggan?id_pendaftaran_pelanggan={$id}");
+        $idPengguna = Pengguna::create([
+            'username' => $data['nik'],
+            'password' => bcrypt($data['password']),
+            'status'   => 'Pelanggan'
+        ])->id;
+
+        Pelanggan::create([
+            'id_pengguna'               => $idPengguna,
+            'id_pendaftaran_pelanggan'  => 999,
+            'nik'                       => $data['nik'],
+            'nama'                      => $data['nama'],
+            'nomor_telepon'             => $data['nomor_telepon'],
+        ]);
+
+        return redirect('/login')->with('pendaftaran', 'Pendaftaran berhasil, silakan login');
     }
 
     public function verifikasiPendaftaranPelanggan()
