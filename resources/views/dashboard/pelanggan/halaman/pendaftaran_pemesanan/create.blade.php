@@ -10,9 +10,9 @@
         @if (request()->get('nomor_rumah'))
             <div class="alert alert-success" role="alert">
                 <p>
-                    Segala macam transaksi ke PT. Karya Putra Bersaudara melalui transfer hanya ke rekening A
+                    Segala macam transaksi ke PT. Citra Putri Mustika melalui transfer hanya ke rekening A
                     <br>
-                    A.n Saifullah Zaid 123XXX-XXXXX-XXXXXX-XXX
+                    A.n Zida 123XXX-XXXXX-XXXXXX-XXX
                 </p>
             </div>
             <form action="/pelanggan/pemesanan-rumah" method="POST" enctype="multipart/form-data">

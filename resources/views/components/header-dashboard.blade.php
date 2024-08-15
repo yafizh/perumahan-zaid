@@ -4,7 +4,7 @@
     </div>
     <div class="col-12 mb-3 col-md-8">
         <h1 class="text-center text-md-start">{{ $titlePage }}</h1>
-        <h3>PT. Karya Putra Bersaudara</h3>
+        <h3>PT. Citra Putri Mustika</h3>
     </div>
     <div class="col-12 mb-3 col-md-2 align-self-end">
         {{ $buttons ?? '' }}
