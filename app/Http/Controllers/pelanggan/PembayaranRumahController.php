@@ -53,13 +53,6 @@ class PembayaranRumahController extends Controller
             'tanggal_pembayaran'    => Carbon::now()->setTimezone('Asia/Kuala_Lumpur')->toDateString()
         ]);
 
-        if (!$rumahPelanggan
-            ->pembayaran
-            ->filter((fn($pembayaran) => in_array($pembayaran->status, [1, 2])))
-            ->count()) {
-            $rumahPelanggan->update(['status' => 2]);
-        }
-
         return redirect('/pelanggan/' . $rumahPelanggan->id . '/riwayat-pembayaran-rumah');
     }
 }

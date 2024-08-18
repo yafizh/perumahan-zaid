@@ -185,10 +185,10 @@
                                             <th>Status Pembayaran</th>
                                             <td class="colon align-middle">:</td>
                                             <td class="align-middle">
-                                                @if ($item->jenis_pembayaran == 1 || $item->jenis_pembayaran == 3)
-                                                    <span class="badge text-bg-success">Lunas</span>
-                                                @elseif ($item->jenis_pembayaran == 2)
+                                                @if ($item->status_pembayaran == 1)
                                                     <span class="badge text-bg-danger">Belum Lunas</span>
+                                                @elseif ($item->status_pembayaran == 2)
+                                                    <span class="badge text-bg-success">Lunas</span>
                                                 @endif
                                             </td>
                                         </tr>
