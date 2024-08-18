@@ -49,15 +49,6 @@ class RiwayatPembangunanRumahController extends Controller
         if ($request->get('proses_pembangunan'))
             $rumah->update(['status_pembangunan' => 3]);
 
-        if ($rumah->rumahPelanggan) {
-            $response = Http::timeout(6)->post($this->zenzivaEnpoint, [
-                'userkey'   => $this->zenzivaUserKey,
-                'passkey'   => $this->zenzivaApiKey,
-                'to'        => $rumah->rumahPelanggan->pelanggan->nomor_telepon,
-                'message'   => $data['keterangan']
-            ]);
-        }
-
         return redirect('/admin/rumah/' . $data['id_rumah']);
     }
 

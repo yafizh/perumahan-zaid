@@ -403,7 +403,8 @@ class LaporanController extends Controller
             ->map(function ($item) {
                 return $item->rumah;
             })->sortBy('nomor_rumah');
-        $rumahPelanggan = RumahPelanggan::where('jenis_pembayaran', 2)->orWhere('jenis_pembayaran', 1);
+        $rumahPelanggan = RumahPelanggan::where('jenis_pembayaran', 2)
+            ->orWhere('jenis_pembayaran', 1);
         $href = "/admin/cetak/rekap-tagihan-pembayaran-rumah?";
 
         if (!empty(request()->get('id_rumah'))) {
@@ -432,6 +433,7 @@ class LaporanController extends Controller
                     ];
                 });
             }
+
             $href .= "id_rumah=" . request()->get('id_rumah');
         } else
             $pembayaran = collect();
