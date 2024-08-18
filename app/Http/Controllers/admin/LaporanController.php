@@ -157,10 +157,8 @@ class LaporanController extends Controller
         }
 
         if (request()->get('id_blok_perumahan')) {
-            $query = $query->whereHas('rumahPelanggan', function ($q) {
-                $q->whereHas('rumah', function ($q) {
-                    $q->where('id_blok_perumahan', request()->get('id_blok_perumahan'));
-                });
+            $query = $query->whereHas('rumah', function ($q) {
+                $q->where('id_blok_perumahan', request()->get('id_blok_perumahan'));
             });
             $href .= "&id_blok_perumahan=" . request()->get('id_blok_perumahan');
         }
@@ -399,9 +397,12 @@ class LaporanController extends Controller
 
     public function rekapTagihanPembayaranRumah()
     {
-        $rumah = RumahPelanggan::where('jenis_pembayaran', 2)->orWhere('jenis_pembayaran', 1)->get()->map(function ($item) {
-            return $item->rumah;
-        })->sortBy('nomor_rumah');
+        $rumah = RumahPelanggan::where('jenis_pembayaran', 2)
+            ->orWhere('jenis_pembayaran', 1)
+            ->get()
+            ->map(function ($item) {
+                return $item->rumah;
+            })->sortBy('nomor_rumah');
         $rumahPelanggan = RumahPelanggan::where('jenis_pembayaran', 2)->orWhere('jenis_pembayaran', 1);
         $href = "/admin/cetak/rekap-tagihan-pembayaran-rumah?";
 

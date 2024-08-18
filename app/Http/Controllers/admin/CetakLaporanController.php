@@ -215,10 +215,8 @@ class CetakLaporanController extends Controller
         }
 
         if (request()->get('id_blok_perumahan')) {
-            $query = $query->whereHas('rumahPelanggan', function ($q) {
-                $q->whereHas('rumah', function ($q) {
-                    $q->where('id_blok_perumahan', request()->get('id_blok_perumahan'));
-                });
+            $query = $query->whereHas('rumah', function ($q) {
+                $q->where('id_blok_perumahan', request()->get('id_blok_perumahan'));
             });
 
             $filter['blok_perumahan'] = BlokPerumahan::find(request()->get('id_blok_perumahan'))->first()->nama;

@@ -36,7 +36,7 @@ class LoginLogoutController extends Controller
     public function storePendaftaranPelanggan(Request $request)
     {
         $data = $request->validate([
-            'nik'                   => 'required|unique:pelanggan,nik',
+            'nik'                   => 'required|unique:pengguna,username',
             'nama'                  => 'required',
             'nomor_telepon'         => 'required',
             'password'              => 'required',

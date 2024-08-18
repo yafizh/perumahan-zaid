@@ -140,7 +140,7 @@
             if (this[this.selectedIndex].value == 2) {
                 inputJumlahCicilan.parentElement.classList.remove('invisible');
                 inputTanggalMulaiPembayaran.parentElement.classList.remove('invisible');
-                biayaUangMuka.value = "88.500.000";
+                biayaUangMuka.value = "50.000.000";
             }
             if (this[this.selectedIndex].value == 3) {
                 biayaUangMuka.parentElement.classList.add('d-none');
