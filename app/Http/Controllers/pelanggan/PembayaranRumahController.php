@@ -13,7 +13,7 @@ class PembayaranRumahController extends Controller
 {
     public function index(RumahPelanggan $rumahPelanggan)
     {
-        $idPembayaram = $rumahPelanggan->pembayaran->map(fn ($item) => $item->id);
+        $idPembayaram = $rumahPelanggan->pembayaran->map(fn($item) => $item->id);
         $detailPembayaran = DetailPembayaran::select("*")
             ->whereIn('id_pembayaran', $idPembayaram)
             ->orderBy('created_at', 'DESC')
@@ -52,6 +52,13 @@ class PembayaranRumahController extends Controller
             'status'                => 1,
             'tanggal_pembayaran'    => Carbon::now()->setTimezone('Asia/Kuala_Lumpur')->toDateString()
         ]);
+
+        if (!$rumahPelanggan
+            ->pembayaran
+            ->filter((fn($pembayaran) => in_array($pembayaran->status, [1, 2])))
+            ->count()) {
+            $rumahPelanggan->update(['status' => 2]);
+        }
 
         return redirect('/pelanggan/' . $rumahPelanggan->id . '/riwayat-pembayaran-rumah');
     }
